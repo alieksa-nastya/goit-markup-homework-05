@@ -684,7 +684,8 @@ border: 1px solid #FFFFFF;
     border: none;
 }
 
-.modal button {
+.modal-close:hover .icon-close,
+.modal-close:focus .icon-close {
 fill: #FFFFFF;
 }
 
