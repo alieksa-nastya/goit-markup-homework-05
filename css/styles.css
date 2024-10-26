@@ -679,16 +679,13 @@ border: 1px solid #FFFFFF;
     margin-bottom: 24px;
 }
 
-.modal-close:hover {
-    fill: #FFFFFF;
+.modal-close:hover, .modal-close:focus {
     background-color: #404bbf;
     border: none;
 }
 
-.modal-close:focus {
-    fill: #FFFFFF;
-    background-color: #404bbf;
-    border: none;
+.modal button {
+fill: #FFFFFF;
 }
 
 .modal-header {
@@ -805,8 +802,8 @@ fill: #F4F4FD;
 }
 
 .modal-check-span {
-    border-radius: 2px;
     display: inline-flex;
+    border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 16px;
     height: 16px;
