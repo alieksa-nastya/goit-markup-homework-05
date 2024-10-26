@@ -680,11 +680,15 @@ border: 1px solid #FFFFFF;
 }
 
 .modal-close:hover {
-    fill: #ffffff
+    fill: #ffffff;
+    background-color: #404bbf;
+    border: none;
 }
 
 .modal-close:focus {
-    fill: #ffffff
+    fill: #ffffff;
+    background-color: #404bbf;
+    border: none;
 }
 
 .modal-header {
